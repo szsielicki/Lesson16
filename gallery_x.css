@@ -119,7 +119,7 @@ div #exist {
   }
 
   body {
-    background-image: images/x-gray.png;
+    background-image: url(images/x-gray.png);
   }
 
 }
