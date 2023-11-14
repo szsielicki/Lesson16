@@ -1,0 +1,138 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#main_container {
+  background-color: #FFFFFF;
+  max-width: 1400px;
+}
+
+#intro_column {
+  background-color: #FFFFFF;
+  width: 94%;
+  margin-left: 3%;
+}
+
+#current_column {
+  background-color: #FFFFFF;
+  width: 94%;
+  margin-left: 3%;
+}
+
+#coming_soon_column {
+  background-color: #FFFFFF;
+  width: 94%;
+  margin-left: 3%;
+}
+
+h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+
+}
+
+h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 4px;
+
+}
+
+h3 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: oblique;
+  font-weight: 540;
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 4px;
+}
+
+p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 1.8;
+  margin-bottom: 8px;
+}
+
+div .intro_paragraph {
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 450;
+  font-style: italic;
+}
+
+div #exist {
+  text-align: center;
+}
+
+
+@media (min-width: 717px) {
+  #main_container {
+    overflow: hidden;
+  }
+
+  #intro_column {
+    float: left;
+    margin-left: 5%;
+    width: 90%;
+
+  }
+
+  #current_column {
+    width: 43%;
+    float: left;
+    margin-left: 5%;
+
+  }
+
+  #coming_soon_column {
+    width: 43%;
+    margin-left: 4%;
+    float: left;
+
+  }
+}
+
+@media (min-width: 1015px) {
+
+  #intro_column {
+    width: 26%;
+    margin-left: 4%;
+  }
+
+  #current_column {
+    width: 30%;
+    margin-left: 4%;
+  }
+
+  #coming_soon_column {
+    margin-left: 2%;
+    width: 30%;
+    padding-bottom: 30px;
+  }
+
+  body {
+    background-image: images/x-gray.png;
+  }
+
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  border: 2px solid gray;
+  margin: 20px 5px 20px 5px;
+
+}
+
+.x {
+  font-weight: bold;
+  font-size: 48px;
+}
